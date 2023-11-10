@@ -1,2 +1,20 @@
+.image-description {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
 
-/** ADD YOUR AWESOME CODES HERE **/
+.gallery-single {
+    position: relative;
+}
+
+.gallery-single:hover .image-description {
+    display: block;
+}
